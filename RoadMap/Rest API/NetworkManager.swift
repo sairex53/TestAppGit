@@ -18,9 +18,7 @@ enum NetworkError: Error {
 }
 
 final class NetworkManager: ObservableObject {
-    init() {
-        
-    }
+    init() { }
     
     static let shared = NetworkManager()
     
